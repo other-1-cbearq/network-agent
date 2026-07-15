@@ -10,7 +10,7 @@ echo "Downloading network-agent..."
 rm -rf network-agent network-agent.tar.gz
 
 # 下载最新版本
-wget -O network-agent.tar.gz https://download.antping.com/update/network-agent.tar.gz
+wget -q -O network-agent.tar.gz https://download.antping.com/update/network-agent.tar.gz
 
 # 解压
 tar -xzf network-agent.tar.gz
